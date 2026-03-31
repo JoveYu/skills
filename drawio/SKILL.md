@@ -164,6 +164,8 @@ Every diagram must have this structure:
 
 Consult `references/xml-reference.md` for common styles, style properties, edge routing details (including waypoints), and container/group examples.
 
+Consult `shape-libraries/README.md` for extra shape-libraries.
+
 ## Edge routing
 
 **CRITICAL: Every edge `mxCell` must contain a `<mxGeometry relative="1" as="geometry" />` child element**, even when there are no waypoints. Self-closing edge cells (e.g. `<mxCell ... edge="1" ... />`) are invalid and will not render correctly. Always use the expanded form:
